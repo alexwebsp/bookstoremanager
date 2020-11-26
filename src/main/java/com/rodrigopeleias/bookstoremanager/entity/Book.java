@@ -1,10 +1,10 @@
 package com.rodrigopeleias.bookstoremanager.entity;
 
 
-import com.fasterxml.jackson.databind.annotation.JsonPOJOBuilder;
-import jdk.jfr.DataAmount;
-import lombok.*;
-
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import javax.persistence.*;
 
 @Entity
